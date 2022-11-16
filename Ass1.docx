@@ -1,0 +1,76 @@
+ Assignment 1-
+
+1-
+ *    is operator (expression)
+‘hello’ is  value 
+-87.8   is value
+-   expression
+/ expression
++ expression
+6  expression
+
+2-string and variable
+
+Strinng are the data . And variable are symbols where we are storing our data .
+
+3- Describe three different data types.
+
+Integer-  Integer , it contains  +ve and -ve numbers . We can’t store decimal numbers in integers.
+
+Float- It contains +ve and -ve numbers with decimal points.
+
+String – It contains the group of characters . We have to store the string like this
+          
+          james= “James”
+
+
+
+4- Python expression 
+ Python expression are made of operators ,literals and identifiers . This is the way how we are representing our value in different formats.
+
+Like – 4 can be expressed as 
+         
+         { 4*4- 2+ 8- (20/2)}/ 3
+
+
+
+5-This assignment statements, like spam = 10. What is the difference between an
+expression and a statement?
+
+Statements does not return anything. But expression expresses the value ,and return with representation value.
+
+
+6- After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1 
+
+after running this statement = bacon will remain as it is 22
+
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam'* 3
+
+= ‘spamspamspam’
+=  ‘spamspamspam’
+
+
+8-Why is eggs a valid variable name while 100 is invalid?
+
+Because eggs is valid identifier and 100 is valid integer , it can be valid identifier but it will create problem ,that’s why it is invalid.
+
+
+9- What three functions can be used to get the integer, floating-point number, or string
+version of a value?
+
+
+Integer-int() 
+Float- float()
+String- str()
+
+10. Why does this expression cause an error? How can you fix it?
+"I have eaten " + 99 + " burritos"
+
+Because 99 is number , it can not be combined with string. So we will convert this number to string using str()
+
+"I have eaten " + str(99) + " burritos"
